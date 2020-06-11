@@ -1,3 +1,4 @@
+require 'pry"'
 def first_challenge
    epic_tragedy = {
      :montague => {
@@ -13,6 +14,7 @@ def first_challenge
            name: "Mercutio", age: "18", attitude: "hot-headed"
            
          }
+         binding.pry 
          ]
      },
      :capulet => {
